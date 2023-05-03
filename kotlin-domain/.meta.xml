@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+    <template>
+        <property name="configName" value="domainKt"/>
+        <property name="configFile" value="domainKt.ftl"/>
+        <property name="fileName" value="${domain.fileName}"/>
+        <property name="suffix" value=".kt"/>
+        <property name="packageName" value="${domain.basePackage}.domain"/>
+        <property name="encoding" value="${domain.encoding}"/>
+        <property name="basePath" value="${domain.basePath}"/>
+    </template>
+</templates>
